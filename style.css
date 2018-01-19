@@ -4,6 +4,7 @@ header {
     font-size: 36pt;
     font-family: 'Dancing Script', cursive;
     padding-bottom: 50px;
+    padding-top:40px;
 }
 
 
@@ -51,8 +52,8 @@ article {
     height: 30%;
     width: 30%;
    border-radius:50%;
-  float:left;
-  padding:75px;
+float:left;
+padding:6%;
   
     
 }
