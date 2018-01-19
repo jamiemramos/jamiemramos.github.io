@@ -50,13 +50,11 @@ article {
 
 .img-circle {
     height: 30%;
- width: 30%;
+    width: 30%;
     border-radius:50%;
     float:left;
-    top: 50%;                    
-   transform: translate(0, 15%);
-   padding-left: 40px;
-    
+    padding:90px;
+    padding:75px;
 }
 
 footer {
@@ -70,9 +68,8 @@ footer {
 }
 
 a {
-    color: #454647;
+    color:#4a4b4c;
     text-decoration:none;
-    text-shadow:white;
 }
 
 a:hover {
