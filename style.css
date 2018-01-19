@@ -12,7 +12,6 @@ body {
     font-size: 17pt;
     background: linear-gradient(90deg, #816C5B, #A9A18C, #816C5B);
     color: white;
-    text-shadow:black;
     font-family: 'EB Garamond', serif;
 }
 
@@ -24,7 +23,7 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 16;
+    font-size: 16pt;
     color:#83929F;
     font-family: 'EB Garamond', serif;
     text-transform:uppercase;
@@ -42,7 +41,7 @@ article {
     text-align:right;
     border-radius:10px;
     padding-bottom: 30px;
-    padding-right:25px;
+    padding-right:30px;
     padding-top:.5px;
     margin:auto;
 
@@ -53,7 +52,7 @@ article {
     width: 30%;
    border-radius:50%;
   float:left;
-  padding:90px;
+  padding:75px;
   
     
 }
