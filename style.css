@@ -2,12 +2,30 @@ header {
     text-align: center;
     size: 24pt;
     color:white;
+    text-decoration: bold;
+    font-family: 
 }
 
 body {
     text-align:center;
     size: 16pt;
-    background-color: black;
+    background: linear-gradient(90deg, black, pink, gray, pink, black);
     color: white;
+    text-shadow:black;
+}
+
+.img-circle {
+    height: 50%;
+    width: 50%;
+   padding: 20pt;
+   border-radius:50%;
+    
+}
+
+footer {
+    bottom:0;
+    left:50%;
+    margin-left:-200px;
+    position:fixed;
 }
 
