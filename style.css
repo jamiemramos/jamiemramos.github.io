@@ -50,11 +50,12 @@ article {
 
 .img-circle {
     height: 30%;
-    width: 30%;
-   border-radius:50%;
-float:left;
-padding:6%;
-  
+ width: 30%;
+    border-radius:50%;
+    float:left;
+    top: 50%;                    
+   transform: translate(0, 15%);
+   padding-left: 40px;
     
 }
 
@@ -65,11 +66,13 @@ footer {
     position:fixed;
     font-size: 10pt;
     font-weight:bold;
+    padding-bottom:10px;
 }
 
 a {
     color: #454647;
     text-decoration:none;
+    text-shadow:white;
 }
 
 a:hover {
