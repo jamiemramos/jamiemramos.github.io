@@ -3,8 +3,7 @@ header {
     color:white;
     font-size: 36pt;
     font-family: 'Dancing Script', cursive;
-    padding-bottom: 50px;
-    padding-top:40px;
+   grid-area: head;
 }
 
 
@@ -16,10 +15,8 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
-
 h1 {
     
-    font-size: 18pt;
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
 }
@@ -64,7 +61,7 @@ footer {
     position:fixed;
     font-size: 10pt;
     font-weight:bold;
-    padding-bottom:10px;
+    grid-area: foot;
 }
 
 a {
@@ -75,5 +72,24 @@ a {
 a:hover {
     color:black;
     text-decoration: underline;
+    
+.topnav {
+    float: left;
+}
+
+.grid-container {
+    display:grid;
+}
+
+.left {
+    grid-area: left;
+}
+
+.middle {
+    grid-area: middle;
+    
+}
+.right{
+    grid-area: right;
 }
 
