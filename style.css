@@ -56,9 +56,7 @@ h4 {
 }
 
 footer {
-position: absolute;
- bottom:-100%;
- width: 100%;
+grid-area:foot;
 font-family: 'Poiret One', cursive;
 font-size:15pt;
 
@@ -101,17 +99,23 @@ a:hover {
         background-position: bottom;
         margin-bottom: 3%;
         font-family: 'Poiret One', cursive;
+        grid-area:topnav;
     
     }
     
 
     .wrapper {
       display: grid;
-      grid: "main main main"
+      
+      grid: 
+      "topnav topnav topnav"
+              "main main main"
             "left middle right"
-            "leftt middlee rightt";
+            "leftt middlee rightt"
+            "foot foot foot";
         grid-column-gap: 10px;
           grid-row-gap: 5px;
+        
          font-family: 'Poiret One', cursive;
         
          
@@ -211,6 +215,70 @@ a:hover {
 .mainbox {
     padding-left: 45%;
     padding-right: 10%;
+   
+}
+
+
+.submain {
+    background:#454647;
+    color:white;
+    font-size:70%;
+    width:80%;
+    text-align:center;
+    border-radius:5%;
+   padding: 1%;
+   margin-left:9%;
+   margin-top:3%;
+    grid-area:main;
+    margin-bottom:4%;
+  
+   
+    
+}
+.contactwrapper{
+     display: grid;
+      grid: 
+      "topnav topnav topnav topnav topnav"
+              "main main main main main"
+            "one two four five six"
+            "foot  foot foot foot foot";
+     grid-column-gap: 5px;
+          grid-row-gap: 5px;
+         font-family: 'Poiret One', cursive;
+         
+}
+.facebook {
+    grid-area: one;
+  
+}
+.twitter {
+    grid-area: two;
+  
+    
+}
+.gmail {
+    height:130px;
+    width:auto;
+  
 
 }
+.instagram {
+    grid-area: four;
+  
+    
+}
+.linkedin {
+    grid-area: five;
+ 
+    
+}
+.github{
+    grid-area: six;
+
+    
+}
+
+.socialmedia-logo {
+    height:130px;
+width:auto;  }
 
