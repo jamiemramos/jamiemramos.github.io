@@ -303,6 +303,14 @@ width:auto;
 }
 .mySlides{
     height:300px;
-    float:center;
    
+   
+}
+article{
+      text-align:center;
+    font-size: 24pt;
+    background: linear-gradient(90deg, #816C5B, #A9A18C, #816C5B);
+    color: white;
+   font-family: 'Poiret One', cursive;
+ 
 }
